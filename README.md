@@ -10,11 +10,6 @@
 
 *By Quantum Projects*
 
-## 🖼️ Preview
-
-<img width="534" height="857" alt="image" src="https://github.com/user-attachments/assets/c2f26dc1-f9b4-4824-a190-f1829a938388" />
-
-
 ## 🚀 Overview
 
 QC-DevTools is a comprehensive, modular development framework for RedM featuring a modern React-based NUI interface, global search functionality, and automatic clipboard integration. Designed to streamline testing and development workflows for RedM server developers.
@@ -49,6 +44,9 @@ QC-DevTools is a comprehensive, modular development framework for RedM featuring
 3. Look at entities to see live data
 4. Right-click to capture and view details
 
+## 🖼️ Preview
+
+<img width="534" height="857" alt="image" src="https://github.com/user-attachments/assets/c2f26dc1-f9b4-4824-a190-f1829a938388" />
 
 ## 🔧 Development
 
