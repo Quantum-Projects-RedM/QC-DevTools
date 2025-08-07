@@ -2,7 +2,7 @@
 -- QC-DEVTOOLS - NUI INTERFACE
 --=========================================================
 -- Handles React NUI menu communication
--- Replaces ox_lib context menus with custom western-themed menus
+-- Replaces ox_lib context menus with custom western-themed menus and creating it standalone
 --=========================================================
 
 local nuiOpened = false
