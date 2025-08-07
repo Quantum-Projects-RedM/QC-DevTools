@@ -28,8 +28,7 @@ QC-DevTools is a comprehensive, modular development framework for RedM featuring
 - 🏢 **IPL Management**
 - 🎭 **Animation Post FX**
 - 🌅 **Timecycle Modifiers**
-
-### 📡 **Entity Information**
+- 📡 **Entity Information**
 
 ## 🛠️ Installation
 
