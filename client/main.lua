@@ -5,8 +5,6 @@
 -- Modular design for easy expansion
 --=========================================================
 
--- No external framework dependencies needed
-
 -- Collect all searchable data from modules
 local function GetGlobalSearchData()
     local searchData = {}
