@@ -54,7 +54,7 @@ const App: React.FC = () => {
     try {
       await navigator.clipboard.writeText(text)
       success = true
-      console.log('[QC-DevTools] Copied using modern clipboard API')
+/*       console.log('[QC-DevTools] Copied using modern clipboard API') */
     } catch (err) {
       console.log('[QC-DevTools] Modern clipboard failed, trying fallback method:', err)
       
@@ -72,7 +72,7 @@ const App: React.FC = () => {
         success = document.execCommand('copy')
         document.body.removeChild(tempInput)
         
-        console.log('[QC-DevTools] Fallback copy success:', success)
+/*         console.log('[QC-DevTools] Fallback copy success:', success) */
       } catch (fallbackErr) {
         console.error('[QC-DevTools] Both clipboard methods failed:', fallbackErr)
         success = false
@@ -113,7 +113,7 @@ const App: React.FC = () => {
     const handleMessage = (event: MessageEvent) => {
       const messageData = event.data
       const { action } = messageData
-      console.log('[QC-DevTools NUI] Received message:', action, messageData)
+/*       console.log('[QC-DevTools NUI] Received message:', action, messageData) */
 
       switch (action) {
         case 'showMenu':
@@ -164,7 +164,7 @@ const App: React.FC = () => {
           if (messageData.instructions) {
             setEntityInstructions(messageData.instructions)
           }
-          console.log('[QC-DevTools] EntityScanner state should now be visible')
+/*           console.log('[QC-DevTools] EntityScanner state should now be visible ')*/
           break
 
         case 'hideEntityScanner':
@@ -174,9 +174,9 @@ const App: React.FC = () => {
           break
 
         case 'updateEntityInfo':
-          console.log('[QC-DevTools] updateEntityInfo received:', messageData)
+/*           console.log('[QC-DevTools] updateEntityInfo received:', messageData)
           console.log('[QC-DevTools] messageData.entityInfo exists?', !!messageData.entityInfo)
-          console.log('[QC-DevTools] messageData contents:', messageData)
+          console.log('[QC-DevTools] messageData contents:', messageData) */
           if (messageData.entityInfo) {
             setEntityInfo(messageData.entityInfo)
             console.log('[QC-DevTools] Set entityInfo to:', messageData.entityInfo)

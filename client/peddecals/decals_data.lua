@@ -35,23 +35,6 @@ PedDecalsData.damage = {
     }
 }
 
--- Test Decals (Simple names to test functionality)
-PedDecalsData.test = {
-    name = "Test Decals",
-    icon = "fa-solid fa-flask",
-    decals = {
-        -- Start with simple, common decal names
-        { name = "PD_Vomit", label = "Vomit (Known Working)" },
-        { name = "blood", label = "Blood (Simple)" },
-        { name = "dirt", label = "Dirt (Simple)" },
-        { name = "mud", label = "Mud (Simple)" },
-        { name = "bruise", label = "Bruise (Simple)" },
-        { name = "cut", label = "Cut (Simple)" },
-        { name = "scar", label = "Scar (Simple)" },
-        { name = "wound", label = "Wound (Simple)" },
-    }
-}
-
 -- Scars and Healing
 PedDecalsData.scars = {
     name = "Scars & Healing",

@@ -27,8 +27,8 @@ const EntityScanner: React.FC<EntityScannerProps> = ({
   showNoEntity,
   instructions
 }) => {
-  console.log('[EntityScanner] Props:', { isVisible, entityInfo: !!entityInfo, showNoEntity })
-  console.log('[EntityScanner] EntityInfo details:', entityInfo)
+/*   console.log('[EntityScanner] Props:', { isVisible, entityInfo: !!entityInfo, showNoEntity })
+  console.log('[EntityScanner] EntityInfo details:', entityInfo) */
 
   const formatCoords = (coords: { x: number; y: number; z: number } | null | undefined) => {
     if (!coords) return '-'
@@ -41,11 +41,11 @@ const EntityScanner: React.FC<EntityScannerProps> = ({
   }
 
   if (!isVisible && !showNoEntity) {
-    console.log('[EntityScanner] Not rendering - isVisible:', isVisible, 'showNoEntity:', showNoEntity)
+    /* console.log('[EntityScanner] Not rendering - isVisible:', isVisible, 'showNoEntity:', showNoEntity) */
     return null
   }
 
-  console.log('[EntityScanner] Rendering component')
+  /* console.log('[EntityScanner] Rendering component') */
   
   return (
     <div className="entity-scanner">
