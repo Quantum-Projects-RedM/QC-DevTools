@@ -15,30 +15,10 @@
 QC-DevTools is a comprehensive, modular development framework for RedM featuring a modern React-based NUI interface, global search functionality, and automatic clipboard integration. Designed to streamline testing and development workflows for RedM server developers.
 
 ## ✨ Features
-
-### 🎨 **Modern NUI Interface**
-- Custom React TypeScript frontend with western-themed styling
-- Responsive design with smooth animations
-- Intuitive menu navigation with history management
-- Real-time search across all modules
-
-### 🔍 **Global Search System**
-- Search across all modules and categories instantly
-- Find specific items without navigating through menus
-- Live filtering with performance optimization
-- Deep search through ped decals, audio, explosions, IPLs, and more
-
-### 📋 **Automatic Clipboard Integration**
-- Action buttons automatically copy relevant data to clipboard
-- Perfect for documentation and script development
-- Intelligent detection of action vs navigation buttons
-- Fallback clipboard methods for maximum compatibility
-
-### 🧩 **Modular Architecture**
-- Easy to extend with new modules
-- Clean separation of concerns
-- Consistent API across all modules
-- Hot-swappable components
+-  🎨 **Modern NUI Interface**
+- 🔍 **Global Search System**
+- 📋 **Automatic Clipboard Integration**
+- 🧩 **Modular Architecture**
 
 ## 📦 Included Modules
 
@@ -48,8 +28,7 @@ QC-DevTools is a comprehensive, modular development framework for RedM featuring
 - 🏢 **IPL Management**
 - 🎭 **Animation Post FX**
 - 🌅 **Timecycle Modifiers**
-
-### 📡 **Entity Information**
+- 📡 **Entity Information**
 
 ## 🛠️ Installation
 
