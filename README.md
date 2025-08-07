@@ -1,6 +1,6 @@
 # QC-DevTools
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: GPLv3](https://img.shields.io/badge/License-GPLv3-yellow.svg)
 ![Platform: RedM](https://img.shields.io/badge/Platform-RedM-red)
 ![Framework: React](https://img.shields.io/badge/Frontend-React-lightblue)
 ![Language: Lua](https://img.shields.io/badge/Backend-Lua-orange)
