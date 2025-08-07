@@ -144,7 +144,7 @@ For direct contact, reach out to the project maintainer.
 
 ## 📄 License
 
-This project is open source and available under the MIT License. Feel free to use, modify, and distribute according to the license terms.
+This project is open source and available under the GPLv3 License. Feel free to use, modify, and distribute according to the license terms.
 
 ## 🙏 Credits
 
